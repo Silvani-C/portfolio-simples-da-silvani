@@ -1,0 +1,73 @@
+@media screen and (max-width:1200px) {
+    main{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .main-content{
+        width: 100%;
+        align-items: center;
+        margin: 2% 0px;
+    }
+    .main-content .texto{
+        text-align: center;
+    }
+    .main-content .texto p{
+        width: 100%;
+        font-size: 1em;
+        text-align: center;
+    }
+    main .cards, .main-content, .texto p{
+        margin-top: 32px;
+    }
+    /*cards icones*/
+    .icon-Tec{
+        width: 90px;
+        height: 90px;
+    } 
+    main figure img{
+        width: 400px;
+        height: 400px;
+    }
+}
+@media screen and (max-width:700px){
+    header{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    header h1{
+        font-size: 2rem;
+    }
+    header nav{
+        margin-top: 24px;
+    }
+    header nav a{
+        font-size: 1em;
+    }
+    /*main*/
+    /*cards icones*/
+    .icon-Tec{
+        width: 60px;
+        height: 60px;
+    }
+    /*diminuir os titulos h2*/
+    .texto h2{
+        font-size: 1.8em;
+    }
+    aside h2{
+        font-size: 1.8em;
+    }
+    main figure img{
+        width: 250px;
+        height: 250px;
+    }
+}
+@media screen and (max-width:420px){
+    .icon-Tec{
+        width: 40px;
+        height: 40px;
+    }
+
+}

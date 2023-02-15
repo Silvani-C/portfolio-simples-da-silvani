@@ -1,0 +1,131 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,500;1,400&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+/*header*/
+header{
+    width: 100%;
+    height: auto;
+    background-color: #222;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: static;
+    box-shadow: 0px 0px 15px #ff008087;
+}
+header .logoSil{
+    width: 80px;
+    height: auto;
+    transition: 0.2s ease-in-out;
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+nav a{
+    text-decoration: none;
+    color: #fff;
+    transition: 0.2s ease-in-out;
+    margin-right: 1.3em;
+    font-size: 1.5em;
+}
+header h1:hover, a:hover{
+    color: #ff0080;
+}
+/*main*/
+main{
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main-content .texto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+}
+.texto h2{
+    margin-bottom: 2%;
+    font-size: 2.2em;
+}
+.texto p{
+    width: 75%;
+    font-size: 1.2em;
+    font-weight: 300;
+    text-align: justify;
+    line-height: 1.6;
+}
+/*aside - icones*/
+aside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+aside h2{
+    margin-bottom: 2%;
+    font-size: 2.2em;
+}
+.icon-Tec{
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    background-color: #fff;
+    border-radius: 8px;
+    margin-right:0.5em;  
+    margin-left: 0.5em;
+    cursor: pointer; 
+}
+.icon-Tec:hover{
+    box-shadow: 0px 0px 10px #ff0080;
+}
+.html{
+    color: #1471b5;
+}
+.css{
+    color: #d84d28;
+}
+.js{
+    color: #f0db4e;
+}
+.git{
+    color: #000;
+}
+/*main figure*/
+main figure{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+main figure img{
+    width: 500px;
+    height: 500px;
+}
+/*footer*/
+footer{
+    border-top: 1px solid #ff0080;
+    background-color: #222;
+    text-align: center;
+    color: #fff;
+    padding: 15px;
+}
+
+
